@@ -1479,6 +1479,15 @@
       #sticky-bar { display: block; }
       body { padding-bottom: 60px; }
 
+      #hero { min-height: 100svh; height: auto; }
+      .hero-bg {
+        position: fixed;
+        top: 0; left: 0; right: 0;
+        height: 100svh;
+        transform: none !important;
+      }
+      .hero-content { position: relative; z-index: 2; min-height: 100svh; }
+
       .story-grid { grid-template-columns: 1fr; }
       .story-img-wrap { order: -1; aspect-ratio: 16/10; }
 
