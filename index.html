@@ -1486,19 +1486,13 @@
       .bar-intro-img { aspect-ratio: 16/10; order: -1; }
       .menu-cat-body { padding: 24px 20px 20px; }
       .cocktail-grid {
+        display: grid;
         grid-template-columns: 1fr;
-        overflow-x: auto;
-        display: flex;
-        scroll-snap-type: x mandatory;
-        background: none;
         gap: 12px;
-        padding-bottom: 8px;
+        background: none;
         border: none;
       }
       .cocktail-card {
-        min-width: 280px;
-        scroll-snap-align: start;
-        flex-shrink: 0;
         border: 1px solid var(--border);
       }
 
@@ -1637,10 +1631,6 @@
       </div>
       <div class="story-img-wrap reveal reveal-delay-2">
         <img src="view%20from%20outside.jpg" alt="Paro — the Jaipuria Mansion facade, Jaipur, from MI Road" loading="lazy" width="600" height="750" />
-        <div class="story-img-badge">
-          <p>80</p>
-          <p>Year old building</p>
-        </div>
       </div>
     </div>
   </div>
@@ -1666,10 +1656,6 @@
       </div>
       <div class="bar-intro-img reveal reveal-delay-2">
         <img src="bar%20view.jpeg" alt="Paro bar — the view from the rooftop, Jaipur below" loading="lazy" width="600" height="800" />
-        <div class="bar-intro-img-badge">
-          <p>The Bar</p>
-          <span>Craft Cocktails · Indian Spirits</span>
-        </div>
       </div>
     </div>
 
